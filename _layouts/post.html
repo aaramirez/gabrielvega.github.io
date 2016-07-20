@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+
+  {% include head.html %}
+
+  <body>
+
+  	<div id="preloader">
+    	<div class="spinner"></div> <!-- page loader spinner -->
+    </div>
+
+    <!-- .stickem-container -->
+    <div class="stickem-container">
+
+	    {% include navigation.html %}
+	    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+      <div id="sub-header">  
+
+      <!-- #sub-header -->
+
+        <div class="container">
+          <h1 class="entry-title" itemprop="name headline">
+            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ page.title }}</a>
+          </h1>
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d/%m/%y" }}</time>
+            {% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}
+        </div>
+
+      <!-- #sub-header end -->
+
+      </div>
+      <!-- #sub-header -->
+      <div id="sub-header">
+          
+        <div class="container">
+          <div itemprop="articleBody" style="text-align: left !important;">
+            <p>{{ content }}</p>
+          </div>
+        </div>
+          
+      </div>
+      <!-- #sub-header end -->
+
+      </article>
+
+	    {% include downloads.html %}
+	    {% include footer.html %}
+        
+    </div>
+    <!-- .stickem-container end -->
+    
+    {% include ie8.html %}
+	  {% include js.html %}
+    
+</body>
+</html>
+

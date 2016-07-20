@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Pagueyá !!!"
+date:   2016-06-15 13:29:17
+author: Gabriel Vega
+categories: bysynergytech productos
+---
+
+[bySynergyTech][1] tiene el agrado en presentar su ópera prima, Pagueyá. Es un producto hecho para constribuir en la masificación de los medios de pago. En línea con las tendencias mundiales de acceso a los medios para cobrar a través de aplicaciones móviles.
+
+[bySynergyTech][1] desarrolla el producto Pagueyá que permite a un pequeño y mediano comerciante cobrar a sus clientes con tarjetas de crédito.
+
+Nuestra visión es que los pagos serán a través de medios digitales. Es decir, sólo se necesita una conexión a internet y una aplicación móvil para pagar y cobrar. En este sentido desarrolamos nuestra aplicación Pagueyá para que pueda cobrar en cualquier lugar.
+
+[1]: http://bysynergytech.github.io/tech-commercial-site
