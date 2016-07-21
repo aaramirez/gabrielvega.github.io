@@ -13,7 +13,7 @@ email: website@bysynergy.tech
 description: > # this means to ignore newlines until "baseurl:"
   Synergy Tech Web Site.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://bysynergytech.github.io/tech-commercial-site" # the base hostname & protocol for your site
+url: "http://bysynergy.tech" # the base hostname & protocol for your site
 twitter_username: bysynergytech
 github_username:  bysynergytech
 
