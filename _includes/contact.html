@@ -10,7 +10,7 @@
                 	<h2>¿Quieres conocernos? <strong>Contáctanos</strong></h2>
                 </div>
                 
-                <form method="post" action="#" class="affa-form-contact animation" data-animation="animation-fade-in-up">
+                <form method="post" action="{{ site.data.global.contact_email | prepend: "https://formspree.io/" }}" class="affa-form-contact animation" data-animation="animation-fade-in-up">
                     <div class="submit-status"></div> <!-- submit status -->
                     <input type="text" name="name" maxlength="255" placeholder="Nombre">
                     <input type="text" name="email" maxlength="100" placeholder="Dirección de correo electrónico *">
@@ -18,7 +18,6 @@
                     <textarea name="message" placeholder="Mensaje *"></textarea>
                     <input type="submit" value="Enviar">
                 </form>
-                
             </div>
             <!-- .container end -->
             

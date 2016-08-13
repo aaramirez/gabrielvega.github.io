@@ -1,4 +1,4 @@
-companyname: bySynergyTech
+companyname: "Inversiones Pagueya, C.A."
 productname: Pagueyá
 
 logo_image: logo.png
@@ -8,15 +8,17 @@ logo_image: logo.png
 tracking_id: UA-80539351-1
 
 # RRSS
-facebook_url:
+facebook_url: "https://www.facebook.com/Synergy-Tech-892207717592434/?ref=aymt_homepage_panel"
 facebook_username:
-twitter_url:
+twitter_url: "https://twitter.com/bysynergytech"
 twitter_username:
 pinterest_url:
 pinterest_username:
 google_url:
 google_username:
-instagram_url:
+instagram_url: "https://www.instagram.com/bysynergytech/"
 instagram_username:
 dribbble_url:
 dribbble_username:
+
+contact_email: timoto@gmail.com
